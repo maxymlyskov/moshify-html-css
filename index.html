@@ -10,7 +10,6 @@
     <meta property="og:title" content="Moshify.">
     <meta property="og:image" content="http://">
     <meta property="og:url" content="http://moshified.com">
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,7 +45,7 @@
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds.
           </p>
-          <a href="" class="btn btn--accent btn--stretched">Get started</a>
+          <a aria-label="Moshify" href="" class="btn btn--accent btn--stretched">Get started</a>
         </header>
         <picture data-aos="zoom-in-left">
           <source
@@ -71,6 +70,7 @@
       </header>
       <div class="input-group">
         <input
+        aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here."
@@ -82,7 +82,7 @@
         </button>
       </div>
       <ul class="list block-domain__prices">
-        <li><a href="#" class="badge badge--secondary">.com $9</a></li>
+        <li><a aria-label="price" href="#" class="badge badge--secondary">.com $9</a></li>
         <li>.sg $10</li>
         <li>.space $11</li>
         <li>.info $14</li>
